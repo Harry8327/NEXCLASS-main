@@ -92,26 +92,6 @@ def style_base_layout():
         button:hover{
         transform: scale(1.1)}
 
-        html, body, [class*="css"]  {
-            color: black !important;
-        }
-
-        input, textarea {
-            background-color: white !important;
-            color: black !important;
-        }
-
-        label, .stTextInput label {
-            color: black !important;
-        }
-
-        [data-testid="stTextInput"] input {
-            background-color: white !important;
-            color: black !important;
-        }
-
-        [data-testid="stSidebar"] {
-            background-color: white !important;
-        }
+        
     </style>
 """,unsafe_allow_html=True)
