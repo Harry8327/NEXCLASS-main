@@ -66,7 +66,7 @@ def style_base_layout():
         border-radius: 1.5rem !important;
         background-color:#5865F2  !important;
         color: white !important;
-        padding: 10px 20px !important
+        padding: 10px 20px !important;
         border:none !important;
         transition: transform 0.25s ease-in-out !important;
         }
@@ -75,7 +75,7 @@ def style_base_layout():
         border-radius: 1.5rem !important;
         background-color: #EB459E !important;
         color: white !important;
-        padding: 10px 20px !important
+        padding: 10px 20px !important;
         border:none !important;
         transition: transform 0.25s ease-in-out !important;
         }
@@ -84,12 +84,34 @@ def style_base_layout():
         border-radius: 1.5rem !important;
         background-color:black!important;
         color: white !important;
-        padding: 10px 20px !important
+        padding: 10px 20px !important;
         border:none !important;
         transition: transform 0.25s ease-in-out !important;
         }
 
         button:hover{
         transform: scale(1.1)}
+
+        html, body, [class*="css"]  {
+            color: black !important;
+        }
+
+        input, textarea {
+            background-color: white !important;
+            color: black !important;
+        }
+
+        label, .stTextInput label {
+            color: black !important;
+        }
+
+        [data-testid="stTextInput"] input {
+            background-color: white !important;
+            color: black !important;
+        }
+
+        [data-testid="stSidebar"] {
+            background-color: white !important;
+        }
     </style>
 """,unsafe_allow_html=True)
